@@ -1,0 +1,27 @@
+{
+  "name": "api-restfull-nodejs-mongodb",
+  "version": "1.0.0",
+  "description": "Basic API Rest with NodeJS, ORM, MongoDB and Mongoose",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./src/index.js localhost 3000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demostenesbr/api-restfull-nodejs-mongodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demostenesbr/api-restfull-nodejs-mongodb/issues"
+  },
+  "homepage": "https://github.com/demostenesbr/api-restfull-nodejs-mongodb#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2",
+    "nodemon": "^2.0.16"
+  }
+}
